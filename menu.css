@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;  
+    position: sticky;
+    top:0; 
+    left: 0; 
+    z-index: 10;
+  }
+  #backhome{
+    text-decoration: none;
+    color: white;
+  }
+  .logo {
+    width: 30px;
+    height: auto;
+  }
+  #title{
+    margin-left: 10px;
+    font-size: 30px;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  input[type="email"],
+  textarea, select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+
+  .alert-danger {
+    background: #e52b0b center no-repeat;
+    background-position: 15px 50%; 
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px 20px 5px 45px;
+    border-top: 2px solid #ffd324;
+    border-bottom: 2px solid #ffd324;
+    }
+    .alert-success {
+      background: #5cc24e center no-repeat;
+      background-position: 15px 50%; 
+      display: block;
+      margin-bottom: 5px;
+      text-align: center;
+      padding: 5px 20px 5px 45px;
+      border-top: 2px solid #78c181;
+      border-bottom: 2px solid #78c181;
+      }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;  
+      position: sticky;
+      bottom: 0; 
+      left: 0; 
+      z-index: 10;
+      width: 100%;
+  }
+  
+  footer p {
+      margin: 0;
+  }
+  

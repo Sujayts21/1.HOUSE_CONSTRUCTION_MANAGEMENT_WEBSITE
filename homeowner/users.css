@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;  
+    position: sticky;
+    top:0; 
+    left: 0; 
+    z-index: 10;
+  }
+  #backhome{
+    text-decoration: none;
+    color: white;
+  }
+  .logo {
+    float: inline-start;
+    width: 30px;
+    height: auto;
+  }
+  #title{
+    margin-left: 10px;
+    font-size: 30px;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn-info{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .btn {
+    display: block;
+    padding: 5px;
+    background-color: #ebaf0a;
+    color: #0b0b0b;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .container{
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+
+    }
+    .profile{
+    display: flex;
+    align-items: center;
+    border:1px solid rgba(0,0,0,.1);
+    padding:15px;
+    gap:30px;
+    }
+    
+    .profile img{
+        width:100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 0%;
+    }
+    
+  .btn:hover {
+    background-color: #f80404;
+  }
+  
+  .btn-info:hover {
+    background-color: #1eeb17;
+  }
+  .navigator{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+  .navigator a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .navigator a:hover {
+    background-color: grey;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; 
+    margin-top: 20px;  
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

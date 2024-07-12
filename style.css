@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;  
+    position: sticky;
+    top:0; 
+    left: 0; 
+    z-index: 10;
+  }
+  #backhome{
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo {
+    width: 30px;
+    height: auto;
+  }
+  #title{
+    margin-left: 10px;
+    font-size: 30px;
+
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .hero {
+      background-color:blanchedalmond;
+      padding: 50px 20px;
+      margin: 20px;
+      border-radius: 40px;
+  }
+
+  
+  .hero p{
+      font-size: 30px;
+      text-align:center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .features {
+      background-color:MistyRose;
+      padding: 20px 20px;
+      margin: 20px;
+      border-radius: 40px;
+      text-align: center;
+      
+  }
+  .features h2 {
+      margin-bottom: 20px;
+  }
+  .feature1{
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-around; 
+    }
+    .feature {
+      background-color: pink;
+      width: 25%;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ddd; 
+      border-radius: 5px; 
+    }
+    .feature:hover{
+      transform: translateY(-5px);
+      filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    }
+    
+    .featureis{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .featurephoto{
+      height: 40px;
+      text-align: center;
+    }
+  .testimonials {
+      background-color:Bisque;
+      color:#333;
+      padding: 20px 20px;
+      margin: 20px;
+      border-radius: 40px;
+      text-align: center;
+  }
+  .testimonial {
+      background-color: cornsilk;
+      width: 30%;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ddd; 
+      border-radius: 20px; 
+    }
+    .testimonial h2{
+      font-weight: bold;
+    }
+    .testimonial h4{
+      font-size: 20px;
+      font-style: italic;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+    }
+    .testimonial p{
+      font-family: cursive;
+    }
+    .testimonial1{
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-around; 
+    }
+    .testimonial:hover{
+      transform: translateY(+10px);
+      filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    }
+
+  footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;  
+      position: sticky;
+      bottom: 0; 
+      left: 0; 
+      z-index: 10;
+      width: 100%;
+  }
+
+  footer p {
+      margin: 0;
+  }
